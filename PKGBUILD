@@ -14,7 +14,7 @@ makedepends=('mesa' 'gcc' 'pkg-config' 'python3' 'qt5-tools')
 optdepends=('libaacs: AACS decryption for Blu-ray support'
             'libbdplus: BD+ decryption for Blu-ray support'
             'youtube-dl: streaming website support including YouTube')
-source=('$pkgname-$pkgver.tar.gz::https://github.com/xylosper/bomi/archive/v$pkgver.tar.gz')
+source=("${pkgname}-${pkgver}.tar.gz::https://github.com/xylosper/bomi/archive/v${pkgver}.tar.gz")
 md5sums=('543c592f588c68d6f0c3cf254c288f58')
 
 build() {
