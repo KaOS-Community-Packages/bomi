@@ -11,9 +11,7 @@ depends=('qt5-base' 'qt5-declarative' 'qt5-x11extras' 'qt5-quickcontrols' 'icu'
          'alsa-lib' 'pulseaudio' 'jack' 'libchardet' 'libbluray'
          'mpg123' 'libva' 'libgl' 'fribidi' 'libass' 'ffmpeg')
 makedepends=('mesa' 'gcc' 'pkg-config' 'python3' 'qt5-tools')
-optdepends=('libaacs: AACS decryption for Blu-ray support'
-            'libbdplus: BD+ decryption for Blu-ray support'
-            'youtube-dl: streaming website support including YouTube')
+optdepends=('youtube-dl: streaming website support including YouTube')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/xylosper/bomi/archive/v${pkgver}.tar.gz")
 md5sums=('543c592f588c68d6f0c3cf254c288f58')
 
